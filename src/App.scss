@@ -1,0 +1,28 @@
+@import './constants/variables.scss';
+@import "../node_modules/bootstrap-scss/bootstrap.scss";
+@import './constants/styles.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: $primary-text-color;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+
+
+// Main Styles
+.container {
+  max-width: 78rem;
+  width: 100%;
+  margin: 0 auto;
+} 
