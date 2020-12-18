@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import "../../../styles/index.scss";
 import { heatmapDisc } from "../../../constants";
@@ -154,3 +155,25 @@ class Heatmap extends Component {
 }
 
 export default Heatmap;
+=======
+import React from 'react';
+import './heatmap.scss';
+import { heatmapDisc } from '../../../constants';
+
+const Heatmap = () => {
+    return (
+    <div className='htmp'>
+        <center className="htmp-header">
+            Heatmap/coverage
+        </center>
+        <div>
+            <center>
+                {/* {heatmapDisc} */}
+            </center>
+        </div>
+    </div>
+    );
+}
+
+export default Heatmap;
+>>>>>>> d44c0cd8099e9d31b621637d3dbb2332447427e2

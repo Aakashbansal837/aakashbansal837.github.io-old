@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 @import "./styles/variables.scss";
+=======
+@import './constants/variables.scss';
+@import "../node_modules/bootstrap-scss/bootstrap.scss";
+@import './constants/styles.scss';
+>>>>>>> d44c0cd8099e9d31b621637d3dbb2332447427e2
 
 * {
   padding: 0;
@@ -16,9 +22,18 @@ body {
   line-height: 1.4;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d44c0cd8099e9d31b621637d3dbb2332447427e2
 // Main Styles
 .container {
   max-width: 78rem;
   width: 100%;
   margin: 0 auto;
+<<<<<<< HEAD
 }
+=======
+} 
+>>>>>>> d44c0cd8099e9d31b621637d3dbb2332447427e2
