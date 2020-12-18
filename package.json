@@ -2,6 +2,7 @@
   "name": "aakashbansal837.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aakashbansal837.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -14,13 +15,13 @@
     "path": "^0.12.7",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.0",
-    "homepage": "https://aakashbansal837.github.io"
+    "react-scripts": "^3.3.0"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "node index.js",
+    "start": "react-scripts start",
+    "start1": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
